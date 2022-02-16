@@ -39,10 +39,10 @@ img {
 }
 
 .sign-up-area {
+  border-radius: 25px;
   width: 300px;
   text-align: center;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 25px;
   padding: 20px;
   margin: 25% auto 25%;
   background-color: #fff;
