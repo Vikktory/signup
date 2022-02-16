@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(backgound1.0.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border-style: solid;
+  border-top-style: dotted;
+  margin: 20px auto;
+  width: 80%;
+  border-color: black;
+  margin-bottom: 0;
+}
+
+img {
+  width: 70px;
+  margin-top: -50px;
+}
+
+.or {
+  background-color: #fff;
+  font: bold;
+  position: relative;
+  bottom: 13px;
+  font-size: 1.1rem;
+}
+
+.form-check-label, p, #emailHelp {
+  font-size: 13px;
+}
+
+.sign-up-area {
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 25% auto 25%;
+  background-color: #fff;
+}
+
+.sign-up-area h1 {
+  color: #0d6efd;
+  margin: 30px 0;
+  font-family: sans-serif;
+}
+
+.twitterBtn {
+  margin-bottom: 15px;
+}
+
+.btn {
+  font-size: 14px;
+}
+
+.form-control {
+  font-size: 13px;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+.copyright {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width:350px) {
+  .sign-up-area {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width:1000px) {
+  .sign-up-area {
+    width: 400px;
+    margin: 3% auto 1%;
+  }
+
+  .form-check-label, p, #emailHelp, .btn, .form-control {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width:2000px) {
+  .sign-up-area {
+    width: 550px;
+    margin: 20% auto 20%;
+  }
+
+  .form-check-label, p, #emailHelp, .btn, .form-control {
+    font-size: 1.5rem;
+  }
+}
